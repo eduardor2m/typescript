@@ -1,0 +1,32 @@
+# Arquivo .editorconfig para TypeScript
+
+# Configurações padrão
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Configurações específicas para TypeScript
+[*.ts]
+# Use 2 espaços para indentação
+indent_size = 2
+
+# Configurações específicas para arquivos de definição TypeScript (.d.ts)
+[*.d.ts]
+# Use 2 espaços para indentação
+indent_size = 2
+
+# Configurações específicas para arquivos de configuração TypeScript (.tsconfig.json)
+[tsconfig.json]
+# Use 2 espaços para indentação
+indent_size = 2
+
+# Configurações específicas para arquivos de teste TypeScript (.spec.ts)
+[*spec.ts]
+# Use 2 espaços para indentação
+indent_size = 2
