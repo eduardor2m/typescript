@@ -5,7 +5,7 @@ interface IStudent {
   getMedia(): number;
 }
 
-class Student implements IStudent {
+export class Student implements IStudent {
   private name: string;
   private age: number;
   private grades: number[];
